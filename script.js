@@ -1,3 +1,8 @@
+class Calculator{
+    constructor(previousButtonTextElement, currentButtonTextElement){
+        
+    }
+}
 
 // Buttons Selection
 const numberButtons =document.querySelectorAll('[data-number]')
