@@ -1,6 +1,7 @@
 class Calculator{
     constructor(previousButtonTextElement, currentButtonTextElement){
-        
+        this.previousButtonTextElement = previousButtonTextElement
+        this.currentButtonTextElement = currentButtonTextElement
     }
 }
 
