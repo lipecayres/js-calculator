@@ -15,6 +15,10 @@ class Calculator{
 
     }
 
+    chooseOperation(){
+
+    }
+    
     appendNumber(number){
         this.currentOperand = number
     }
