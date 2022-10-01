@@ -5,7 +5,9 @@ class Calculator{
     }
 
     clear(){
-
+        this.currentButtonTextElement = ''
+        this.previousButtonTextElement = ''
+        this.operation = undefined
     }
 
     delete() {
@@ -21,7 +23,7 @@ class Calculator{
     }
 
     updateDisplay(){
-        
+
     }
 
 
