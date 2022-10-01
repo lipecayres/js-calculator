@@ -3,6 +3,28 @@ class Calculator{
         this.previousButtonTextElement = previousButtonTextElement
         this.currentButtonTextElement = currentButtonTextElement
     }
+
+    clear(){
+
+    }
+
+    delete() {
+
+    }
+
+    appendNumber(){
+
+    }
+
+    compute(){
+
+    }
+
+    updateDisplay(){
+        
+    }
+
+
 }
 
 // Buttons Selection
