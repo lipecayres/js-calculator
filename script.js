@@ -18,9 +18,9 @@ class Calculator{
     chooseOperation(){
 
     }
-    
+
     appendNumber(number){
-        this.currentOperand = number
+        this.currentOperand = this.currentOperand.toString() + number.toString()
     }
 
     compute(){
@@ -47,6 +47,7 @@ const currentButtonTextElement = document.querySelector('[data-current-operand]'
 
 const calculator = new Calculator(previousButtonTextElement, currentButtonTextElement)
 
+// Buttons update display
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
         calculator.appendNumber(button.innerText)
