@@ -16,6 +16,10 @@ class Calculator{
     }
 
     chooseOperation(operation){
+        if(this.currentOperand === '') return
+        if(this.previousOperand !== '' {
+            this.compute()
+        })
         this.operation = operation
         this.previousOperand = this.currentOperand
         this.currentOperand = ''
@@ -64,4 +68,9 @@ operationButtons.forEach(button => {
         calculator.chooseOperation(button.innerText)
         calculator.updateDisplay()
     })
+})
+
+equalsButton.addEventListener('click', () => {
+    calculator.compute()
+    calculator.updateDisplay()
 })
