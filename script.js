@@ -1,7 +1,7 @@
 class Calculator{
-    constructor(previousButtonTextElement, currentButtonTextElement){
-        this.previousButtonTextElement = previousButtonTextElement
-        this.currentButtonTextElement = currentButtonTextElement
+    constructor(previousOperandTextElement, currentOperandTextElement){
+        this.previousOperandTextElement = previousOperandTextElement
+        this.currentOperandTextElement = currentOperandTextElement
         this.clear()
     }
 
@@ -62,7 +62,6 @@ class Calculator{
             this.previousOperandTextElement.innerText = 
                 `${this.previousOperand} ${this.operation}`
         }
-        this.previousButtonTextElement.innerText = this.previousOperand
     }
 }
 
